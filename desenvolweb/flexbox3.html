@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <style>
+
+        body{
+
+            background-color: black;
+        }
+        div{
+            width: 100px;
+            height: 100px;
+            font-size: 30px;
+            
+        }
+        #div1{
+         background-color: blue;
+         order:1;
+         
+        }
+        #div2{
+            background-color: yellow;
+            order: 2;
+            
+        }
+        #div3{
+            background-color: red;
+            order: 3;
+        
+        }
+        #div4{
+        background-color: blueviolet;
+        order:4;
+        }
+        #divextra{ 
+        background-color: aqua;
+        flex-grow:4;
+         order:5
+        }  
+        main{
+            border: 1px solid white;
+            height:70vh;
+            display:flex; 
+            flex-direction: row;
+
+
+        }
+    </style>
+</head>
+<body>
+
+    <main>
+        <div id="div1">1</div>
+        <div id="div2">2</div>
+        <div id="div4">4</div>
+        <div id="divextra">extra</div><div id="div3">3</div>
+    </main>
+
+</body>
+</html>
